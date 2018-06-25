@@ -12,6 +12,8 @@ $model = $_POST['model'];
 $renav = $_POST['renav'];
 $cor = $_POST['cor'];
 
-mysqli_query($conn, "INSERT INTO carro VALUES ('$nome','$placa','$uf','$marca','$ano','$nmotor','$chassi','$model','$renav','$cor')");
-header("location:cadastrosucesso.php");
+$query = "INSERT INTO carro(nomeseg,placa,uf,marca,ano,nmotor,chassi,model,cor,renav) VALUES ('$nome','$placa','$uf','$marca','$ano','$nmotor','$chassi','$model','$cor','$renav')";
+mysqli_query($conn, $query);
+
+header("Location:cadastrosucesso.php");
  ?>

@@ -26,7 +26,7 @@
     </div>
     <button type="submit" class="btn btn-primary mb-2">Pesquisar</button>
   </form>
-  <a href="formcadastro.php" class="blockquote-footer"> Retornar ao Cadastro </a>
+  <a href="index.php" class="blockquote-footer"> Retornar ao Cadastro </a>
       </div>
 
     </div>

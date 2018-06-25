@@ -1,3 +1,4 @@
+<?php include 'connect.php'; ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -13,7 +14,7 @@
   </head>
   <body>
     <?php
-    include 'connect.php';
+
     $chassi = $_POST['chassi'];
     $sql = mysqli_query($conn," SELECT * FROM carro WHERE chassi = '$chassi'");
     $vetor = mysqli_fetch_array($sql);

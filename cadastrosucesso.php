@@ -12,7 +12,7 @@
   </head>
   <body>
     <h3 class="display-4"> Cadastro realizado com Sucesso !! </h1>
-      <a href="formcadastroveiculos.php" class="blockquote"> Realizar novo Cadastro </a>
+      <a href="index.php" class="blockquote"> Realizar novo Cadastro </a>
       l
       <a href="formprocuraveiculo.php" class="blockquote"> Procurar por veiculo</a>
   </div>
