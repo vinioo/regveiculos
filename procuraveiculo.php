@@ -65,7 +65,7 @@
   </tbody>
 </table>
 </div>
-<a href='formprocuraveiculo.php' class='blockquote-footer'> Retornar a busca de veiculos </a>
+<a href='index.php' class='blockquote-footer'> Retornar a busca de veiculos </a>
 
 
       <?php
